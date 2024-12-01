@@ -1,0 +1,44 @@
+.product-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.dialog-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+button[mat-button] {
+  color: #ff0000; /* Example color for cancel button */
+}
+
+button[mat-raised-button] {
+  background-color: #3f51b5; /* Example primary color */
+  color: white;
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #E0E2EC; /* Darker shade on hover */
+  }
+}
+
+.file-input-container {
+  background-color: #E0E2EC;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.file-input-container input[matInput] {
+  flex: 1;
+}
+
+.file-input-container button {
+  white-space: nowrap;
+}

@@ -1,0 +1,42 @@
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+mat-card {
+  width: 400px;
+  padding: 20px;
+}
+
+.form-box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.center-actions {
+  display: flex;
+  justify-content: center;
+}
+
+button[mat-raised-button] {
+  color: rgb(0, 0, 0);
+  transition: background-color 0.3s ease;
+  border-radius: 4px;
+  padding: 0% 10% 0% 10%;
+  font-size: 1.2rem;
+  align-items: center;
+  margin-left: 80px;
+  border: #fffcfc;
+
+  &:hover {
+    background-color: rgb(55, 0, 255); /* Turn blue on hover */
+    color: white;
+  }
+}

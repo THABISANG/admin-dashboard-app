@@ -1,0 +1,38 @@
+table {
+  width: 100%;
+  padding: 50px;
+  border: 1px solid #ccc;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  margin-inline: 3%;
+  border-radius: 8px;
+  padding: 8px;
+  :hover {
+    background-color: rgb(55, 0, 255);
+    color: white;
+  }
+}
+
+.button-container button {
+  margin: 0 10px;
+}
+
+button mat-icon {
+  vertical-align: middle;
+  margin-right: 8px;
+}
+
+.button-text {
+  vertical-align: middle;
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+}
+
